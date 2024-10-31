@@ -8,4 +8,5 @@ dependencies:
   - torchvision
   - pytorch
   - pandas
+  - matplotlib
 prefix: /Users/andrifurrer/anaconda3/envs/transformer
