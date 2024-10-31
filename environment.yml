@@ -7,4 +7,5 @@ dependencies:
   - notebook
   - torchvision
   - pytorch
+  - pandas
 prefix: /Users/andrifurrer/anaconda3/envs/transformer
