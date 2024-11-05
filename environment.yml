@@ -9,4 +9,5 @@ dependencies:
   - pytorch
   - pandas
   - matplotlib
+  - scipy
 prefix: /Users/andrifurrer/anaconda3/envs/transformer
