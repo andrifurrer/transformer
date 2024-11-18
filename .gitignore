@@ -1,33 +1,19 @@
-# Ignore everything by default
-*
-
 # Ignore specific files or folders within the included directories
-data/Dataset
-data/Wrist
 .DS_Store
+data/
+results/
+notebooks/your_file_name.csv
 
 #### Except: allow tracking of specific files and directories
-!.gitignore
-!environment.yml
-!README.md
-!data/
-!notebooks/
+!data/hamlet.txt
 
+# Ignore IDE and editor files
+.idea/         
+.vscode/       
 
-#### Except: .ideas files
+# Ignore Python-specific files
+__pycache__/   
+*.py[cod]      
 
-# Version Control configuration
-!vcs.xml
-
-# how IDEA should treat the text files
-!encodings.xml
-
-# automatic code formatting
-!codeStyleSettings.xml
-
-# project specific words
-!dictionaries
-
-!copyrights
-!misc.xml
-!sqldialects.xml
+# Ignore Jupyter notebook checkpoints 
+.ipynb_checkpoints/
