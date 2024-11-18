@@ -1,10 +1,20 @@
-data/Dataset
-.DS_Store
-
-#### ignore all .idea files
+# Ignore everything by default
 *
 
-#### except
+# Ignore specific files or folders within the included directories
+data/Dataset
+data/Wrist
+.DS_Store
+
+#### Except: allow tracking of specific files and directories
+!.gitignore
+!environment.yml
+!README.md
+!data/
+!notebooks/
+
+
+#### Except: .ideas files
 
 # Version Control configuration
 !vcs.xml
