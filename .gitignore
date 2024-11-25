@@ -2,6 +2,7 @@
 .DS_Store
 data/
 results/
+models/
 notebooks/your_file_name.csv
 
 #### Except: allow tracking of specific files and directories
